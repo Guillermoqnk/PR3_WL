@@ -1,0 +1,48 @@
+body{
+    width: 1200px;
+    background-color: #FCFFFF;
+    max-width: 1200px;
+    font-size: 100%;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+main{
+    background-color: aqua;
+}
+
+header{
+    background-color: aqua;
+    background-origin: padding-box;
+    padding: 0 200px 0 200px;
+}
+
+header ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+header a{
+    font-size: larger;
+    text-decoration: none;
+}
+
+header ul li{
+    padding: 5px;
+}
+
+header ul li:hover{
+    border-top: solid 1px;
+}
+
+header img{
+    max-height: 50px;
+    max-width: 50px;
+}
