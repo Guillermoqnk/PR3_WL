@@ -11,10 +11,11 @@ body{
 
 main{
     background-color: aqua;
+    text-align: center;
 }
 
 header{
-    background-color: aqua;
+    background-color: #F5F5F5;
     background-origin: padding-box;
     padding: 0 200px 0 200px;
 }
@@ -45,4 +46,69 @@ header ul li:hover{
 header img{
     max-height: 50px;
     max-width: 50px;
+}
+
+section:nth-of-type(1){
+    text-align: center;
+    background-image: url(../materials/images/banner.jpg);
+    background-size: cover;
+    height: 275px;
+    padding: 100px 0 100px 0;
+}
+
+section:nth-of-type(2){
+    background-color: #F5F5F5;
+}
+
+section:nth-of-type(3){
+    background-color: #F4C284;
+}
+
+.description{
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+
+main ul{
+    list-style: none;
+    display: flex;
+    flex-direction: horizontal;
+    padding: 0 100px 0 100px;
+}
+
+main li{
+    background-color: #FCFFFF;
+}
+
+.menulittle{
+    flex-grow: 1;
+}
+
+.menulittle img{
+    height: 150px;
+}
+
+.menubig{
+    flex-grow: 2;
+}
+
+.menubig img{
+    height: 150px;
+}
+
+.menubig button {
+    position: relative;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border-radius: 5px;
+    text-align: center;
+    border: 1px solid white;
+    opacity:0.6;
+}
+
+.experiencesimages img{
+    height: 150px;
 }
